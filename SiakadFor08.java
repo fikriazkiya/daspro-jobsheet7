@@ -16,6 +16,6 @@ public class SiakadFor08{
     }
     System.out.println("Nilai Tertinggi: " + nilaiTertinggi);
     System.out.println("Nilai Terendah: " + nilaiTerendah);
-    }
     sc.close();
+    }
 }
