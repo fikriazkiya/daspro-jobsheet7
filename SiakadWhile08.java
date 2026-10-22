@@ -9,13 +9,13 @@ public class SiakadWhile08 {
         while (i < jumlahMahasiswa) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
-            
             if (nilai <0 || nilai >100) {
                 System.out.println("Nilai tidak valid. Masukkan nilai antara 0 dan 100.");
                 continue;
             }
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A.");
+                System.out.println("Bagus, perthankan nilainya!");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah B+.");
             } else if (nilai > 65 && nilai <= 73) {
@@ -30,7 +30,7 @@ public class SiakadWhile08 {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah E.");
             }
             i++;
-            }    
+        }
         sc.close();
         }
     }
