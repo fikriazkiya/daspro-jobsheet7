@@ -3,7 +3,7 @@ public class SiakadFor08{
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    double nilai, nilaiTertinggi = 0, nilaiTerendah = 100;
+    double tiket ;
     for (int i = 1; i <= 10; i++) {
         System.out.print ("Masukkan nilai mahasiswa ke-" + i + ": ");
         nilai = sc.nextDouble();
